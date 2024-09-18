@@ -1,4 +1,8 @@
-function changeText() {
-    const myText = document.querySelector("h1");
-        myText.innerHTML="Good Bye"; 
-}
+const textBtn = document.querySelector("#pressBtn");
+const newText = document.querySelector(".myText");
+
+textBtn.addEventListener("click", function changeText()
+{
+newText.innerHTML = "Good Bye"; 
+}, false
+);
