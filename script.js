@@ -3,6 +3,6 @@ const newText = document.querySelector(".myText");
 
 textBtn.addEventListener("click", function changeText()
 {
-newText.innerHTML = "Good Bye"; 
+newText.innerHTML = "Goodbye World"; 
 }, false
 );
